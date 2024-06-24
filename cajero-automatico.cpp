@@ -4,13 +4,13 @@ int depositar(float);
 float saldo;
 int main(){
     int a,b;
+    do{
     cout<<"cajero automatico"<<endl;
     cout<<"1 depositar"<<endl;
     cout<<"2 retirar"<<endl;
     cout<<"3 ver saldo"<<endl;
     cout<<"0 salir"<<endl;
     cout<<"ingresa la opcion que prefiera: ";cin>>a;
-    do{
     switch(a){
         case 1:
             cout<<"ingresa el monto a depositar: ";cin>>b;
