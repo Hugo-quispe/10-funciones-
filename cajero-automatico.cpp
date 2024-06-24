@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+int depositar(float);
 float saldo;
 int main(){
     int a,b;
@@ -9,6 +10,7 @@ int main(){
     cout<<"3 ver saldo"<<endl;
     cout<<"0 salir"<<endl;
     cout<<"ingresa la opcion que prefiera: ";cin>>a;
+    do{
     switch(a){
         case 1:
             cout<<"ingresa el monto a depositar: ";cin>>b;
@@ -26,4 +28,6 @@ int main(){
         cout<<"ingrese una opcion valida."<<endl;
         break;
     }
-}
+    }while(a!=0);
+    return 0;
+}    
