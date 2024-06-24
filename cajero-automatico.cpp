@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int depositar(float);
+int retirar(float);
 float saldo;
 int main(){
     int a,b;
@@ -31,3 +32,9 @@ int main(){
     }while(a!=0);
     return 0;
 }    
+int depositar(float b){
+    saldo=saldo+b;
+}
+int retirar(float b){
+    saldo= saldo-b;
+}
