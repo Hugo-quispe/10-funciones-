@@ -15,10 +15,12 @@ int main(){
     switch(a){
         case 1:
             cout<<"ingresa el monto a depositar: ";cin>>b;
+            depositar(b);
             cout<<"el deposito se hizo con exito"<<endl;
         break;
         case 2:
         cout<<"ingresa el monto a retirar: ";cin>>b;
+        retirar(b);
         cout<<"el etiro se hizo con exito"<<endl;
         break;
         case 3:
